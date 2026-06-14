@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+
+}
+
+section {
+  padding: 25px;
+  width: 400px;
+  /* box-sizing: border-box; */
+  background-color: blueviolet;
+}
+
+.box{
+  width: 50%;
+  background-color: cadetblue;
+}

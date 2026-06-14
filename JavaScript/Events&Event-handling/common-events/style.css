@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #222;
+  color: white;
+}
+
+/* #main {
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+} */
+
+/* input {
+  display: block;
+}
+
+.card {
+  max-width: 300px;
+  color: #fff;
+  margin-top: 40px;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid #e3e3e3;
+  margin-bottom: 7px;
+}
+
+.card h3 {
+  margin-top: 3px;
+}
+
+.card p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+} */
+
+
+/* .abcd{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: red;
+  border-radius: 50%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+} */
+
+ul{
+  padding: 20px 30px;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+.lt{
+  text-decoration: line-through;
+}

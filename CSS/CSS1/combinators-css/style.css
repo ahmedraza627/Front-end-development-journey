@@ -1,0 +1,152 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:cursive;
+    background-color: gray;
+
+}
+.combinator{
+padding: 10px;
+margin: 100px;
+}
+
+button{
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    color: gold;
+}
+
+button:hover{
+    background-color: black;
+    color: grey;
+}
+
+.list{
+padding: 10px;
+margin: -100px 0px 0px 120px;
+
+}
+
+ul li{
+    word-spacing: 5px;
+    font-style: italic;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+  color: white;
+}
+
+/* 
+.fonts {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 22px;
+    margin: 20px;
+}
+
+.fonts p {
+    margin-top: 10px;
+}
+
+.text-prop {
+    text-align: center;
+    text-decoration: dashed underline;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+}
+
+.text-prop h2 {
+    text-shadow: 3px 3px 0px gold;
+} */
+/* 
+.list {
+    margin: 20px;
+    padding: 20px;
+}
+
+.list p {
+    margin-top: 20px;
+}
+
+.list ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+ */
+
+/* .anchor-states {
+    margin: 10px;
+    padding: 10px;
+}
+
+.anchor-states p {
+    margin-top: 10px;
+}
+
+.anchor-states a {
+    text-decoration: none;
+    margin-top: 10px;
+    /* why margin-top is not applying here ??  */
+/* }
+
+.anchor-states button {
+    height: 40px;
+    width: 140px;
+    margin-top: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: gold; */
+/* why my black color is not applying ??  */
+/* } */
+
+/* .anchor-states button:hover {
+    background-color: white;
+    color: black;
+}
+
+#btn{
+    color: ;
+}  */
+
+.unordered-list {
+  margin: 10px;
+  padding: 15px;
+}
+
+/* -- Descendant selector-- */
+
+.unordered-list > li {
+  font-size: 22px;
+  color: black;
+  list-style-type: none;
+  word-spacing: 1px;
+}
+
+.sons > p{
+    font-size: 18px;
+}
+
+.sons > li {
+    font-size: 22px;
+    color: chartreuse;
+}

@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Project 3: */
+/* Project: 9-Card Component Gallery
+    Requirements:
+    You must create 9 cards arranged in rows. Each card Must demonstrate one major concept:
+        1. Card #1:Heavy padding+ margin
+        2. Card #2:Box-shadow variations
+        3. Card #3:filter:blur/brightness hover effect
+        4. Card #4:List styling (Custom bullets)
+        5. Card #5:Anchor states (link hover,active,visited)
+        6. Card #6:Combinators (parent > child,sibiling+)
+        7. Card #7: display: inline-block vs block 
+        8. Card #8: positioned card (absolute inside relative parent)
+        9. Card #9: Overlapping cards using z-index
+
+        Extra rule: 
+        1. At least one card must have overflow:scroll
+        2. One must have overflow:hidden
+
+        Why this works: 
+        Box model logic becomes muscle memory. Positions + z-index become instinctive. */

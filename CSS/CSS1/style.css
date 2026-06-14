@@ -1,0 +1,41 @@
+#paragrapgh {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: cursive;
+  background-color: #254bdd;
+}
+.paragraph {
+  background-color: #dd4b25;
+}
+
+.html {
+  color: #dd4b25;
+}
+
+.css {
+  color: #254bdd;
+}
+
+.css:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+.javascript {
+  color: #f7e025;
+}
+
+.react {
+  color: rgb(17, 218, 254);
+}
+
+.inheritance {
+  background-color: #dd4b25;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.submit {
+  font-family: inherit;
+}

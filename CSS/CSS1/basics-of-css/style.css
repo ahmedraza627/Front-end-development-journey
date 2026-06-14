@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.div {
+    width: 400px;
+    background-color: black;
+    color: #ccc;
+}
+
+.box-one {
+    width: 50%;
+    background-color: cadetblue;
+}
+
+.box-two {
+    width: 50%;
+    background-color: brown;
+}
